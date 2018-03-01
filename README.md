@@ -58,7 +58,9 @@ Clojure
 
 или
 
+<code>
 (defn avarage [numbers] (/ (apply + numbers)(count numbers)))
+</code>
 
 Код Clojure - это не текст, который преобразуется в функцию avarage.
 Это - структура данных списка /(+ 1 2 3) или ([]())/, которая содержит четыре символа:
